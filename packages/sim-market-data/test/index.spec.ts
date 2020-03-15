@@ -1,5 +1,4 @@
 import _ from "lodash";
-
 import { Market } from "../src/index";
 
 test("Market can run for 100 ticks", () => {

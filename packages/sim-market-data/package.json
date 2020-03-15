@@ -27,7 +27,8 @@
   "dependencies": {
     "assert": "^2.0.0",
     "gaussian": "^1.1.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "@mpoteat/gen-market-common-util": "^1.0.0"
   },
   "devDependencies": {
     "@types/assert": "^1.4.6",

@@ -1,7 +1,7 @@
 import _ from "lodash";
 import { generateLineChart } from "../src/index";
-import { Market } from "../../sim-market-data/src/index";
-import { sleep } from "../../gen-market-common-util/src/index";
+import { Market } from "@mpoteat/sim-market-data/src/index";
+import { sleep } from "@mpoteat/gen-market-common-util/src/index";
 
 const market = Market();
 
