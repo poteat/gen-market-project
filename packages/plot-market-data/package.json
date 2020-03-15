@@ -1,0 +1,36 @@
+{
+  "name": "@mpoteat/plot-market-data",
+  "version": "1.0.0",
+  "description": "Generate plots and charts of strategies and market simulations",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/poteat/gen-market-project.git"
+  },
+  "keywords": [
+    "simulation",
+    "charting",
+    "visualization",
+    "plotting",
+    "analysis"
+  ],
+  "author": "Michael Poteat <me@mpote.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poteat/gen-market-project/issues"
+  },
+  "homepage": "https://github.com/poteat/gen-market-project#readme",
+  "dependencies": {
+    "d3node-linechart": "^0.1.2",
+    "d3node-output": "^1.0.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/jsdom": "^16.1.0",
+    "@types/lodash": "^4.14.149"
+  }
+}

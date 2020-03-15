@@ -1,0 +1,37 @@
+{
+  "name": "@mpoteat/sim-market-data",
+  "version": "1.0.0",
+  "description": "Simulate market data using random walks",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/poteat/gen-market-project.git"
+  },
+  "keywords": [
+    "simulation",
+    "random",
+    "walks",
+    "gaussian",
+    "distribution",
+    "statistics"
+  ],
+  "author": "Michael Poteat <me@mpote.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poteat/gen-market-project/issues"
+  },
+  "homepage": "https://github.com/poteat/gen-market-project#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "gaussian": "^1.1.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.4.6",
+    "@types/gaussian": "^1.1.1",
+    "@types/lodash": "^4.14.149"
+  }
+}
