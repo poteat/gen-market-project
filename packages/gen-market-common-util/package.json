@@ -19,10 +19,12 @@
   "homepage": "https://github.com/poteat/gen-market-project#readme",
   "dependencies": {
     "gaussian": "^1.1.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "@mpoteat/sim-market-data": "^1.0.0"
   },
   "devDependencies": {
     "@types/gaussian": "^1.1.1",
-    "@types/lodash": "^4.14.149"
+    "@types/lodash": "^4.14.149",
+    "jest": "^25.1.0"
   }
 }

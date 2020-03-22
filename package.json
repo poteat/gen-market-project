@@ -1,22 +1,18 @@
 {
   "name": "gen-market-project",
   "version": "1.0.0",
-  "description": "Genetic strategies for generating profit in simulated markets",
+  "description": "Genetic strategies for simulated market models",
   "main": "index.ts",
+  "workspaces": ["packages/*"],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "typecheck": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/poteat/gen-market-project.git"
   },
-  "keywords": [
-    "market",
-    "genetic",
-    "algorithms",
-    "strategy",
-    "simulation"
-  ],
+  "keywords": ["market", "genetic", "algorithms", "strategy", "simulation"],
   "author": "Michael Poteat <me@mpote.at>",
   "license": "MIT",
   "bugs": {
